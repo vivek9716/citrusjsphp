@@ -1,0 +1,47 @@
+#cardNumber, #cvv, #expiry{
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;				
+}
+div.citrus-hosted-field-focused{
+	border: 1px solid #a4d8ff!important;
+	color:#414042!important;
+}
+div.citrus-hosted-field-invalid{
+	border:1px solid red!important;
+}
+.errorUser {
+	border:1px solid red !important;
+}
+.successUser {
+	border:1px solid green!important;
+	color:green;
+}
+div.citrus-hosted-field-valid{
+	border:1px solid green!important;
+}
+div.citrus-hosted-field-focused.citrus-hosted-field-valid{
+	border:1px solid green!important;
+}
+.cardDetails {
+	border: 1px solid #ccc;
+	padding : 15px;
+	margin : 5px;
+	border-radius : 3%;
+}
+.page-header {
+	margin:0px 0 20px !important;
+}			
